@@ -1,0 +1,21 @@
+#current-image-container{
+    background-color:black;
+    color:white;
+    width:fit-content;
+}
+body{
+    margin:0px;
+   padding:0px;
+}
+/* #exp{
+    background-color:black;
+    width:100%;
+} */
+@media screen and (min-width:320px)and (max-width:480px){
+    #current-image-container{
+        width:500px;
+    }
+    #image{
+        width:500px;
+    }
+}
